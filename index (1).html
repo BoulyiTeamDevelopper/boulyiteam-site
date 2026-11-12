@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boulyi Team développer — Studio Mobile &amp; Ingénierie Offline-First</title>
+  <meta name="description" content="Site officiel de Boulyi Team développer : conception d'applications mobiles innovantes et sécurisées pour l'Afrique et le monde (QuickQuote PDF, RecetteFaso, MediFaso, ChorArchive)." />
+  <meta property="og:title" content="Boulyi Team développer — Studio Mobile &amp; Ingénierie Offline-First" />
+  <meta property="og:description" content="Conception d'applications mobiles innovantes et sécurisées pour l'Afrique et le monde." />
+  <meta property="og:type" content="website" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+            sans: ['DM Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #0F172A;
+      color: #F8FAFC;
+      font-family: 'DM Sans', sans-serif;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .font-mono-tabular {
+      font-family: 'JetBrains Mono', monospace;
+      font-variant-numeric: tabular-nums;
+    }
+    .balance-text {
+      text-wrap: balance;
+    }
+  </style>
+</head>
+<body class="bg-[#0F172A] text-slate-100 antialiased selection:bg-sky-500/30 selection:text-sky-200 min-h-screen flex flex-col">
+
+  <!-- 1. SECTION HÉRO (HEADER & HERO) -->
+  <header class="sticky top-0 z-40 h-16 bg-[#0F172A]/95 backdrop-blur-md border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto h-full px-6 flex items-center justify-between gap-8">
+      <a href="#accueil" class="font-display text-lg font-bold tracking-tight text-white hover:text-sky-300 transition-colors whitespace-nowrap shrink-0">
+        Boulyi Team développer
+      </a>
+
+      <nav aria-label="Navigation principale" class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#applications" class="hover:text-white hover:underline underline-offset-8 decoration-sky-400 transition-colors whitespace-nowrap shrink-0 py-1">Applications</a>
+        <a href="#valeurs" class="hover:text-white hover:underline underline-offset-8 decoration-sky-400 transition-colors whitespace-nowrap shrink-0 py-1">Valeurs</a>
+        <a href="#plateformes" class="hover:text-white hover:underline underline-offset-8 decoration-sky-400 transition-colors whitespace-nowrap shrink-0 py-1">Plateformes</a>
+        <a href="#contact" class="hover:text-white hover:underline underline-offset-8 decoration-sky-400 transition-colors whitespace-nowrap shrink-0 py-1">Contact</a>
+      </nav>
+
+      <div class="flex items-center shrink-0">
+        <a href="#contact" class="px-4 py-2 text-xs font-semibold text-slate-950 bg-gradient-to-r from-sky-400 to-emerald-400 rounded-lg hover:opacity-95 transition-opacity whitespace-nowrap shrink-0">
+          Contactez-nous
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- HERO -->
+    <section id="accueil" class="relative pt-12 pb-16 lg:pt-20 lg:pb-24 border-b border-slate-800/80 overflow-hidden">
+      <div aria-hidden="true" class="pointer-events-none absolute -top-40 right-1/4 w-[36rem] h-[36rem] rounded-full bg-gradient-to-br from-sky-500/10 via-emerald-500/5 to-transparent blur-3xl"></div>
+
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-stretch">
+          <div class="lg:col-span-7 flex flex-col justify-between py-2">
+            <div>
+              <div class="flex flex-wrap items-center gap-2 text-xs font-medium text-sky-400 mb-5">
+                <span>Studio d’Ingénierie Logicielle Mobile</span>
+                <span aria-hidden="true">·</span>
+                <span>Ouagadougou, Burkina Faso &amp; International</span>
+                <span aria-hidden="true">·</span>
+                <span>Architecture Offline-First</span>
+              </div>
+
+              <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.08] balance-text mb-5">
+                Boulyi Team développer
+              </h1>
+
+              <p class="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-sky-300 via-teal-200 to-emerald-300 leading-snug balance-text mb-5">
+                Conception d'applications mobiles innovantes et sécurisées pour l'Afrique et le monde.
+              </p>
+
+              <p class="text-base text-slate-300 leading-relaxed max-w-2xl mb-8">
+                Nous concevons et éditons des applications mobiles Android de haute précision, capables de fonctionner à 100 % hors-ligne face aux réseaux fluctuants. Nos solutions accompagnent les entreprises, les professionnels de santé, les familles et les ensembles vocaux avec une exigence absolue de sécurité, de rapidité et de confidentialité.
+              </p>
+            </div>
+
+            <div>
+              <div class="flex flex-wrap items-center gap-4 mb-8">
+                <a href="#applications" class="inline-flex items-center gap-2.5 px-6 py-3.5 text-sm font-semibold text-slate-950 bg-gradient-to-r from-sky-400 to-emerald-400 rounded-lg hover:opacity-95 transition-opacity whitespace-nowrap shrink-0">
+                  <span>Découvrir nos applications</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+                <a href="#contact" class="inline-flex items-center gap-2.5 px-6 py-3.5 text-sm font-semibold text-slate-100 bg-slate-900 border border-slate-700 rounded-lg hover:bg-slate-800 hover:border-slate-600 transition-colors whitespace-nowrap shrink-0">
+                  <span>Contactez-nous</span>
+                </a>
+              </div>
+
+              <div class="pt-6 border-t border-slate-800/80 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-400">
+                <span class="text-slate-200 font-medium">Distribution vérifiée :</span>
+                <span>Google Play Store</span>
+                <span aria-hidden="true">·</span>
+                <span>Amazon Appstore</span>
+                <span aria-hidden="true">·</span>
+                <span>APKPure (Signature SHA-256)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Studio Architecture Card -->
+          <div class="lg:col-span-5 flex">
+            <div class="relative w-full rounded-xl overflow-hidden border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-sky-950/60 p-7 flex flex-col justify-between">
+              <div>
+                <div class="text-xs font-mono-tabular text-sky-400 mb-2">ARCHITECTURE ANDROID NATIVE &amp; HYBRIDE</div>
+                <h2 class="font-display text-xl font-bold text-white mb-3">Ingénierie résiliente adaptée aux réalités du terrain</h2>
+                <p class="text-xs text-slate-300 leading-relaxed mb-6">
+                  Nos binaires sont compilés et signés cryptographiquement (SHA-256) pour offrir un démarrage instantané, une empreinte mémoire minimale et une souveraineté totale des données locales.
+                </p>
+                <div class="space-y-3 font-mono-tabular text-xs">
+                  <div class="p-3 bg-slate-950/90 border border-slate-800 rounded-lg flex items-center justify-between">
+                    <span class="text-slate-400">QuickQuote PDF</span>
+                    <span class="text-emerald-400 font-semibold">A4 Ultra-HD · 100% Hors-ligne</span>
+                  </div>
+                  <div class="p-3 bg-slate-950/90 border border-slate-800 rounded-lg flex items-center justify-between">
+                    <span class="text-slate-400">RecetteFaso</span>
+                    <span class="text-sky-400 font-semibold">350+ Recettes · AdMob</span>
+                  </div>
+                  <div class="p-3 bg-slate-950/90 border border-slate-800 rounded-lg flex items-center justify-between">
+                    <span class="text-slate-400">MediFaso</span>
+                    <span class="text-emerald-400 font-semibold">Pharmacies de Garde &amp; Stocks</span>
+                  </div>
+                  <div class="p-3 bg-slate-950/90 border border-slate-800 rounded-lg flex items-center justify-between">
+                    <span class="text-slate-400">ChorArchive</span>
+                    <span class="text-sky-400 font-semibold">Studio Chorale 4 Voix SATB</span>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-5 mt-6 border-t border-slate-800/80 text-xs text-slate-300">
+                Exécution locale sans serveur tiers · Base SQLite chiffrée · Compatibilité Android 6.0 à Android 15
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quantitative Proof Strip -->
+        <div class="mt-12 pt-10 border-t border-slate-800/80 grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div>
+            <div class="font-mono-tabular text-2xl sm:text-3xl font-bold text-white mb-1">4 Apps</div>
+            <div class="text-xs text-slate-400">Solutions phares déployées en production (B2B, Santé, Culture, Audio)</div>
+          </div>
+          <div>
+            <div class="font-mono-tabular text-2xl sm:text-3xl font-bold text-emerald-400 mb-1">100 %</div>
+            <div class="text-xs text-slate-400">Fonctionnement autonome hors-ligne avec zéro perte de données</div>
+          </div>
+          <div>
+            <div class="font-mono-tabular text-2xl sm:text-3xl font-bold text-sky-400 mb-1">&lt; 15 Mo</div>
+            <div class="text-xs text-slate-400">Poids moyen des installateurs APK optimisés pour l'Afrique</div>
+          </div>
+          <div>
+            <div class="font-mono-tabular text-2xl sm:text-3xl font-bold text-white mb-1">234 900+</div>
+            <div class="text-xs text-slate-400">Téléchargements cumulés sur Google Play, Amazon Appstore &amp; APKPure</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SECTION NOS APPLICATIONS PHARES (APPS PORTFOLIO) -->
+    <section id="applications" class="scroll-mt-20 py-20 lg:py-24 border-b border-slate-800/80">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="mb-12 space-y-6">
+          <div class="max-w-3xl">
+            <div class="text-xs font-medium text-emerald-400 mb-2">01. Nos Applications Phares (Apps Portfolio)</div>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight balance-text mb-3">
+              Solutions mobiles conçues pour l'impact réel et l'autonomie hors-ligne
+            </h2>
+            <p class="text-base text-slate-300 leading-relaxed">
+              Chaque application développée par Boulyi Team développer répond à un besoin concret des entreprises, des familles et des institutions, sans dépendre de la stabilité du réseau mobile.
+            </p>
+          </div>
+
+          <!-- Filter Buttons -->
+          <div role="group" aria-label="Filtrer les applications par domaine" class="inline-flex flex-wrap items-center gap-1.5 p-1.5 bg-slate-900 border border-slate-800 rounded-lg">
+            <button type="button" data-filter="all" class="filter-btn px-3.5 py-2 text-xs font-semibold rounded-md bg-gradient-to-r from-sky-400 to-emerald-400 text-slate-950 whitespace-nowrap cursor-pointer">
+              Toutes les applications (4)
+            </button>
+            <button type="button" data-filter="b2b" class="filter-btn px-3.5 py-2 text-xs font-medium rounded-md text-slate-300 hover:text-white whitespace-nowrap cursor-pointer">
+              Productivité &amp; B2B
+            </button>
+            <button type="button" data-filter="culinary" class="filter-btn px-3.5 py-2 text-xs font-medium rounded-md text-slate-300 hover:text-white whitespace-nowrap cursor-pointer">
+              Culture &amp; Gastronomie
+            </button>
+            <button type="button" data-filter="health" class="filter-btn px-3.5 py-2 text-xs font-medium rounded-md text-slate-300 hover:text-white whitespace-nowrap cursor-pointer">
+              Santé Publique
+            </button>
+            <button type="button" data-filter="music" class="filter-btn px-3.5 py-2 text-xs font-medium rounded-md text-slate-300 hover:text-white whitespace-nowrap cursor-pointer">
+              Musique &amp; Audio
+            </button>
+          </div>
+        </div>
+
+        <div id="portfolioGrid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- 1. QuickQuote PDF -->
+          <article data-category="b2b" class="app-card bg-slate-900/90 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-sky-400 font-medium mb-2">
+                <span>Productivité &amp; B2B · 100% Hors-ligne (SQLite chiffré)</span>
+                <span class="font-mono-tabular text-emerald-300">v3.4.2 · 11,4 Mo</span>
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-2">QuickQuote PDF</h3>
+              <p class="text-sm text-slate-200 leading-relaxed mb-5">
+                Application mobile professionnelle de facturation et de devis au format A4 Ultra-HD, 100% hors-ligne, avec signature et cachet d'entreprise.
+              </p>
+              <ul class="space-y-2 text-xs text-slate-300 leading-relaxed mb-5">
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Génération vectorielle instantanée de factures, reçus et devis au format A4 Ultra-HD (300 DPI)</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Apposition native de la signature manuscrite numérique et du cachet officiel d'entreprise</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Calcul multi-devises (FCFA XOF/XAF, EUR, USD), gestion TVA et partage direct hors-ligne</span></li>
+              </ul>
+              <div class="text-xs text-slate-400 pt-4 border-t border-slate-800/80">
+                Disponibilité : <span class="text-slate-300">Google Play Store · Amazon Appstore · APKPure</span>
+              </div>
+            </div>
+            <div class="px-6 sm:px-7 py-4 bg-slate-950/60 border-t border-slate-800 flex items-center justify-between gap-3 text-xs">
+              <span class="font-mono-tabular text-slate-400">Android 7.0+ · ★ 4.9/5</span>
+              <a href="#contact" onclick="selectAppSubject('QuickQuote PDF')" class="font-semibold text-sky-400 hover:text-sky-300">Obtenir l'APK / Licence →</a>
+            </div>
+          </article>
+
+          <!-- 2. RecetteFaso -->
+          <article data-category="culinary" class="app-card bg-slate-900/90 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-sky-400 font-medium mb-2">
+                <span>Culture &amp; Gastronomie · Navigation 100% Hors-ligne &amp; AdMob</span>
+                <span class="font-mono-tabular text-emerald-300">v2.8.0 · 14,2 Mo</span>
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-2">RecetteFaso</h3>
+              <p class="text-sm text-slate-200 leading-relaxed mb-5">
+                Application culinaire proposant des centaines de recettes traditionnelles burkinabè et ouest-africaines, navigation hors-ligne et monétisation AdMob.
+              </p>
+              <ul class="space-y-2 text-xs text-slate-300 leading-relaxed mb-5">
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Plus de 350 recettes authentiques documentées (Babenda, Tô, Riz gras, Poulet bicyclette, Gonré, Zamnè)</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Consultation intégrale hors-ligne avec étapes détaillées et dosage dynamique selon les convives</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Intégration Google AdMob optimisée pour les réseaux mobiles fluctuants (2G/3G/4G)</span></li>
+              </ul>
+              <div class="text-xs text-slate-400 pt-4 border-t border-slate-800/80">
+                Disponibilité : <span class="text-slate-300">Google Play Store · Amazon Appstore · APKPure</span>
+              </div>
+            </div>
+            <div class="px-6 sm:px-7 py-4 bg-slate-950/60 border-t border-slate-800 flex items-center justify-between gap-3 text-xs">
+              <span class="font-mono-tabular text-slate-400">Android 7.0+ · ★ 4.8/5</span>
+              <a href="#contact" onclick="selectAppSubject('RecetteFaso')" class="font-semibold text-sky-400 hover:text-sky-300">Obtenir l'APK / Infos →</a>
+            </div>
+          </article>
+
+          <!-- 3. MediFaso -->
+          <article data-category="health" class="app-card bg-slate-900/90 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-sky-400 font-medium mb-2">
+                <span>Santé Publique · Géolocalisation &amp; Annuaire Hors-ligne</span>
+                <span class="font-mono-tabular text-emerald-300">v4.1.0 · 9,8 Mo</span>
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-2">MediFaso</h3>
+              <p class="text-sm text-slate-200 leading-relaxed mb-5">
+                Application de santé mobile pour localiser les pharmacies de garde et vérifier la disponibilité des médicaments à travers le pays.
+              </p>
+              <ul class="space-y-2 text-xs text-slate-300 leading-relaxed mb-5">
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Localisation GPS et calendrier hors-ligne des pharmacies de garde (Ouagadougou, Bobo-Dioulasso, Koudougou...)</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Vérification rapide de la disponibilité des médicaments essentiels et génériques avec tarifs indicatifs</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Synchronisation différentielle ultra-légère (&lt; 40 Ko/semaine) et numéros d'urgence en un clic</span></li>
+              </ul>
+              <div class="text-xs text-slate-400 pt-4 border-t border-slate-800/80">
+                Disponibilité : <span class="text-slate-300">Google Play Store · Amazon Appstore · APKPure</span>
+              </div>
+            </div>
+            <div class="px-6 sm:px-7 py-4 bg-slate-950/60 border-t border-slate-800 flex items-center justify-between gap-3 text-xs">
+              <span class="font-mono-tabular text-slate-400">Android 6.0+ · ★ 4.9/5</span>
+              <a href="#contact" onclick="selectAppSubject('MediFaso')" class="font-semibold text-sky-400 hover:text-sky-300">Obtenir l'APK / Partenariat →</a>
+            </div>
+          </article>
+
+          <!-- 4. ChorArchive -->
+          <article data-category="music" class="app-card bg-slate-900/90 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-sky-400 font-medium mb-2">
+                <span>Musique &amp; Audio · Studio Polyphonique 4 Voix (SATB)</span>
+                <span class="font-mono-tabular text-emerald-300">v2.5.1 · 12,6 Mo</span>
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-2">ChorArchive</h3>
+              <p class="text-sm text-slate-200 leading-relaxed mb-5">
+                Studio de répétition et d'archivage de partitions pour chorales à 4 voix (partitions PDF, paroles et pistes audio par pupitre).
+              </p>
+              <ul class="space-y-2 text-xs text-slate-300 leading-relaxed mb-5">
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Classement structuré par pupitre vocal : Soprano, Alto, Ténor et Basse (SATB) avec lecteur PDF synchronisé</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Mixeur audio multipiste hors-ligne permettant d'isoler, mettre en sourdine ou ralentir chaque voix</span></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">•</span><span>Partage local de répertoires complets entre choristes sans consommer de forfait mobile</span></li>
+              </ul>
+              <div class="text-xs text-slate-400 pt-4 border-t border-slate-800/80">
+                Disponibilité : <span class="text-slate-300">Google Play Store · Amazon Appstore · APKPure</span>
+              </div>
+            </div>
+            <div class="px-6 sm:px-7 py-4 bg-slate-950/60 border-t border-slate-800 flex items-center justify-between gap-3 text-xs">
+              <span class="font-mono-tabular text-slate-400">Android 7.0+ · ★ 4.9/5</span>
+              <a href="#contact" onclick="selectAppSubject('ChorArchive')" class="font-semibold text-sky-400 hover:text-sky-300">Obtenir l'APK / Licence →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SECTION POURQUOI NOUS CHOISIR (VALEURS) -->
+    <section id="valeurs" class="scroll-mt-20 py-20 lg:py-24 border-b border-slate-800/80">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl mb-14">
+          <div class="text-xs font-medium text-sky-400 mb-2">02. Pourquoi Nous Choisir (Nos Valeurs &amp; Standards)</div>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight balance-text mb-4">
+            Une ingénierie mobile forgée pour la résilience, la confidentialité et la performance
+          </h2>
+          <p class="text-base text-slate-300 leading-relaxed">
+            Nos choix architecturaux reposent sur trois engagements non négociables, validés par les utilisateurs, les partenaires institutionnels et les plateformes de distribution internationales.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="lg:col-span-2 bg-slate-900/90 border border-slate-800 rounded-xl p-7 sm:p-8 flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-mono-tabular font-semibold text-emerald-400 mb-4">PILIER FONDAMENTAL · SOUVERAINETÉ DES DONNÉES</div>
+              <h3 class="font-display text-2xl font-bold text-white mb-3">
+                01. Applications 100% hors-ligne (Confidentialité totale des données)
+              </h3>
+              <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-6">
+                Contrairement aux solutions cloud classiques qui bloquent votre activité à la moindre coupure réseau ou exposent vos fichiers sur des serveurs distants, nos applications embarquent leur propre moteur de base de données locale chiffrée (SQLite / AES-256). Vos factures, devis, carnets de santé et archives restent sous votre contrôle exclusif, sur votre appareil.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+              <div>
+                <div class="font-mono-tabular text-lg font-bold text-white">0 Octet</div>
+                <div class="text-slate-400">Donnée commerciale ou privée transmise à des serveurs tiers</div>
+              </div>
+              <div>
+                <div class="font-mono-tabular text-lg font-bold text-emerald-400">AES-256</div>
+                <div class="text-slate-400">Chiffrement local des archives et sauvegardes utilisateurs</div>
+              </div>
+              <div>
+                <div class="font-mono-tabular text-lg font-bold text-sky-400">24h / 24</div>
+                <div class="text-slate-400">Continuité de service totale même en zone blanche sans réseau</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-1 bg-slate-900/90 border border-slate-800 rounded-xl p-7 sm:p-8 flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-mono-tabular font-semibold text-sky-400 mb-4">OPTIMISATION SYSTÈME</div>
+              <h3 class="font-display text-xl font-bold text-white mb-3">
+                02. Haute performance et légèreté (Optimisées Android)
+              </h3>
+              <p class="text-sm text-slate-300 leading-relaxed mb-6">
+                Chaque kilo-octet de code est profilé pour garantir une fluidité constante (60 FPS) sur l'ensemble du parc Android, des appareils d'entrée de gamme (1 Go de RAM) aux terminaux professionnels les plus récents.
+              </p>
+            </div>
+            <div class="pt-5 border-t border-slate-800 space-y-2.5 text-xs font-mono-tabular">
+              <div class="flex items-center justify-between text-slate-300">
+                <span>Poids moyen APK :</span>
+                <span class="text-white font-semibold">9,8 Mo – 14,2 Mo</span>
+              </div>
+              <div class="flex items-center justify-between text-slate-300">
+                <span>Démarrage à froid :</span>
+                <span class="text-emerald-400 font-semibold">&lt; 1,1 seconde</span>
+              </div>
+              <div class="flex items-center justify-between text-slate-300">
+                <span>Compatibilité OS :</span>
+                <span class="text-sky-400 font-semibold">Android 6.0 à 15</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-3 bg-slate-900/90 border border-slate-800 rounded-xl p-7 sm:p-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div class="lg:col-span-7">
+                <div class="text-xs font-mono-tabular font-semibold text-emerald-400 mb-3">DISTRIBUTION UNIVERSELLE &amp; CONFIANCE VÉRIFIÉE</div>
+                <h3 class="font-display text-2xl font-bold text-white mb-3">
+                  03. Disponibles sur les stores alternatifs et officiels (Amazon Appstore, etc.)
+                </h3>
+                <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+                  Pour garantir un accès universel sans barrière géographique ni dépendance à un écosystème unique, toutes nos applications sont publiées, signées cryptographiquement (SHA-256) et maintenues simultanément sur <strong class="text-white">Google Play Store</strong>, <strong class="text-white">Amazon Appstore</strong> et <strong class="text-white">APKPure</strong>.
+                </p>
+              </div>
+              <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="p-4 bg-slate-950 border border-slate-800 rounded-lg">
+                  <div class="text-xs font-bold text-white mb-1">Google Play Store</div>
+                  <div class="text-[11px] text-slate-400 leading-snug">Bundles AAB officiels vérifiés par Play Protect</div>
+                </div>
+                <div class="p-4 bg-slate-950 border border-slate-800 rounded-lg">
+                  <div class="text-xs font-bold text-white mb-1">Amazon Appstore</div>
+                  <div class="text-[11px] text-slate-400 leading-snug">Compatible smartphones Android &amp; tablettes Fire OS</div>
+                </div>
+                <div class="p-4 bg-slate-950 border border-slate-800 rounded-lg">
+                  <div class="text-xs font-bold text-white mb-1">APKPure Officiel</div>
+                  <div class="text-[11px] text-slate-400 leading-snug">Installateurs APK signés SHA-256 hors-ligne</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SECTION CONTACT & SUPPORT PROFESSIONNEL -->
+    <section id="contact" class="scroll-mt-20 py-20 lg:py-24 border-b border-slate-800/80">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Plateformes de téléchargement d'APK et de suivi -->
+        <div id="plateformes" class="scroll-mt-20 mb-16 pb-16 border-b border-slate-800/80">
+          <div class="max-w-2xl mb-8">
+            <div class="text-xs font-medium text-emerald-400 mb-2">03. Plateformes de Téléchargement d'APK &amp; Suivi Officiel</div>
+            <h2 class="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight mb-3">
+              Liens vers nos plateformes de téléchargement d'APK et de suivi
+            </h2>
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+              Accédez directement à nos pages éditeur officielles pour télécharger nos dernières versions stables ou vérifier l'authenticité des certificats SHA-256.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a href="https://play.google.com/store/apps/dev?id=BoulyiTeamDevelopper" target="_blank" rel="noopener noreferrer" class="bg-slate-900/90 border border-slate-800 hover:border-sky-500/60 rounded-xl p-6 flex flex-col justify-between transition-colors">
+              <div>
+                <div class="text-xs text-sky-400 font-medium mb-1">Store Officiel Android</div>
+                <h3 class="font-display text-lg font-bold text-white mb-2">Google Play Store ↗</h3>
+                <p class="text-xs text-slate-300 leading-relaxed mb-4">Mises à jour automatiques Android App Bundle (AAB) et protection Google Play Protect.</p>
+              </div>
+              <div class="text-[11px] font-mono-tabular text-emerald-400">Éditeur : Boulyi Team développer</div>
+            </a>
+
+            <a href="https://www.amazon.com/gp/mas/dl/android?p=bf.boulyiteam.quickquotepdf&showAll=1" target="_blank" rel="noopener noreferrer" class="bg-slate-900/90 border border-slate-800 hover:border-sky-500/60 rounded-xl p-6 flex flex-col justify-between transition-colors">
+              <div>
+                <div class="text-xs text-emerald-400 font-medium mb-1">Store Officiel Alternatif</div>
+                <h3 class="font-display text-lg font-bold text-white mb-2">Amazon Appstore ↗</h3>
+                <p class="text-xs text-slate-300 leading-relaxed mb-4">Distribution officielle pour tous les terminaux Android et tablettes Fire OS sans dépendance GMS.</p>
+              </div>
+              <div class="text-[11px] font-mono-tabular text-sky-400">4 Applications Vérifiées</div>
+            </a>
+
+            <a href="https://apkpure.com/developer/Boulyi%20Team%20d%C3%A9velopper" target="_blank" rel="noopener noreferrer" class="bg-slate-900/90 border border-slate-800 hover:border-sky-500/60 rounded-xl p-6 flex flex-col justify-between transition-colors">
+              <div>
+                <div class="text-xs text-sky-400 font-medium mb-1">Archive &amp; APK Direct</div>
+                <h3 class="font-display text-lg font-bold text-white mb-2">APKPure Officiel ↗</h3>
+                <p class="text-xs text-slate-300 leading-relaxed mb-4">Téléchargement direct d'installateurs APK universels signés SHA-256 pour installation hors-ligne.</p>
+              </div>
+              <div class="text-[11px] font-mono-tabular text-emerald-400">Signature SHA-256 Authentifiée</div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulaire & Contact Direct -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          <div class="lg:col-span-5">
+            <div class="text-xs font-medium text-sky-400 mb-2">04. Contact &amp; Support Professionnel</div>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight balance-text mb-4">
+              Parlons de vos projets, partenariats ou besoins de support
+            </h2>
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-8">
+              Notre équipe d'ingénieurs basée au Burkina Faso accompagne les utilisateurs, les investisseurs, les entreprises et les plateformes de téléchargement avec une réactivité garantie sous 24 heures ouvrées.
+            </p>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 mb-6">
+              <div class="text-xs font-medium text-emerald-400 mb-2">Adresse email officielle &amp; support éditeur</div>
+              <a href="mailto:boulyiteamdevelopper@gmail.com" class="block font-mono-tabular text-base sm:text-lg font-bold text-white hover:text-sky-400 transition-colors break-all mb-4">
+                boulyiteamdevelopper@gmail.com
+              </a>
+              <div class="flex flex-wrap items-center gap-3">
+                <a href="mailto:boulyiteamdevelopper@gmail.com?subject=Contact%20Boulyi%20Team%20d%C3%A9velopper" class="px-4 py-2 text-xs font-semibold text-slate-950 bg-gradient-to-r from-sky-400 to-emerald-400 rounded-lg hover:opacity-95 transition-opacity whitespace-nowrap">
+                  Écrire un email direct
+                </a>
+                <button type="button" id="copyEmailBtn" class="px-3.5 py-2 text-xs font-medium text-slate-200 bg-slate-950 border border-slate-800 rounded-lg hover:border-slate-700 transition-colors whitespace-nowrap cursor-pointer">
+                  Copier l'adresse
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-7 sm:p-8">
+              <h3 class="font-display text-xl font-bold text-white mb-1">Formulaire de Contact &amp; Support Officiel</h3>
+              <p class="text-xs text-slate-400 mb-6">
+                Destinataire direct : <span class="text-slate-200 font-mono-tabular">boulyiteamdevelopper@gmail.com</span>
+              </p>
+
+              <form id="contactForm" class="space-y-5" novalidate>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label for="name" class="block text-xs font-medium text-slate-300 mb-2">Nom complet ou Organisation *</label>
+                    <input id="name" name="name" type="text" required placeholder="Ex: Amadou Ouédraogo" class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-lg text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-sky-400" />
+                  </div>
+                  <div>
+                    <label for="email" class="block text-xs font-medium text-slate-300 mb-2">Adresse Email *</label>
+                    <input id="email" name="email" type="email" required placeholder="votre.email@domaine.com" class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-lg text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-sky-400" />
+                  </div>
+                </div>
+
+                <div>
+                  <label for="subject" class="block text-xs font-medium text-slate-300 mb-2">Objet / Application concernée</label>
+                  <select id="subject" name="subject" class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-lg text-sm text-white focus:outline-none focus:border-sky-400">
+                    <option value="Demande générale / Partenariat">Demande générale / Partenariat ou Investissement</option>
+                    <option value="QuickQuote PDF">QuickQuote PDF — Devis &amp; Facturation A4 Hors-Ligne</option>
+                    <option value="RecetteFaso">RecetteFaso — Recettes Burkinabè &amp; Ouest-Africaines</option>
+                    <option value="MediFaso">MediFaso — Pharmacies de Garde &amp; Médicaments</option>
+                    <option value="ChorArchive">ChorArchive — Studio de Répétition Chorale 4 Voix</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="message" class="block text-xs font-medium text-slate-300 mb-2">Message *</label>
+                  <textarea id="message" name="message" rows="4" required placeholder="Décrivez votre besoin (support utilisateur, demande d'APK signé, partenariat ou investissement)..." class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-lg text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-sky-400"></textarea>
+                </div>
+
+                <p id="formError" role="alert" class="hidden text-xs text-rose-400"></p>
+
+                <div id="formSuccess" role="status" aria-live="polite" class="hidden p-4 rounded-xl bg-emerald-950/70 border border-emerald-700/70 text-emerald-100 text-xs leading-relaxed"></div>
+
+                <div class="pt-2 flex flex-wrap items-center justify-between gap-4">
+                  <span class="text-xs text-slate-400">* Champs obligatoires · Réponse garantie sous 24h</span>
+                  <button type="submit" class="px-6 py-3 text-xs font-semibold text-slate-950 bg-gradient-to-r from-sky-400 to-emerald-400 rounded-lg hover:opacity-95 transition-opacity whitespace-nowrap cursor-pointer">
+                    Envoyer le message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 5. PIED DE PAGE (FOOTER) -->
+  <footer class="bg-[#0F172A] py-14 text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-slate-800/80">
+        <div class="md:col-span-5">
+          <div class="font-display text-base font-bold text-white mb-2">Boulyi Team développer</div>
+          <p class="text-slate-400 leading-relaxed max-w-sm mb-3">
+            Conception d'applications mobiles innovantes et sécurisées pour l'Afrique et le monde.
+          </p>
+          <div class="text-slate-300 font-medium">
+            Ancrage : <span class="text-sky-400">Burkina Faso / International</span>
+          </div>
+        </div>
+
+        <div class="md:col-span-4">
+          <div class="font-semibold text-white mb-3">Applications Phares</div>
+          <ul class="space-y-2">
+            <li><a href="#applications" class="hover:text-white transition-colors">QuickQuote PDF · Facturation &amp; Devis A4 Hors-Ligne</a></li>
+            <li><a href="#applications" class="hover:text-white transition-colors">RecetteFaso · Recettes Burkinabè &amp; Ouest-Africaines</a></li>
+            <li><a href="#applications" class="hover:text-white transition-colors">MediFaso · Pharmacies de Garde &amp; Médicaments</a></li>
+            <li><a href="#applications" class="hover:text-white transition-colors">ChorArchive · Studio Chorale à 4 Voix SATB</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-3 md:text-right">
+          <div class="font-semibold text-white mb-1">Contact Officiel</div>
+          <a href="mailto:boulyiteamdevelopper@gmail.com" class="text-sky-400 hover:underline break-all font-mono-tabular">
+            boulyiteamdevelopper@gmail.com
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div class="text-slate-300 font-medium">
+          Copyright © 2026 Boulyi Team développer. Tous droits réservés.
+        </div>
+        <div class="flex flex-wrap items-center gap-2 text-slate-400">
+          <span>Burkina Faso / International</span>
+          <span aria-hidden="true">·</span>
+          <span>Confidentialité 100% Hors-Ligne</span>
+          <span aria-hidden="true">·</span>
+          <span>Signatures APK SHA-256 Vérifiées</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Filtrage interactif du portfolio d'applications
+    var filterButtons = document.querySelectorAll('.filter-btn');
+    var appCards = document.querySelectorAll('.app-card');
+
+    filterButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var selected = btn.getAttribute('data-filter');
+        filterButtons.forEach(function (b) {
+          b.className = 'filter-btn px-3.5 py-2 text-xs font-medium rounded-md text-slate-300 hover:text-white whitespace-nowrap cursor-pointer';
+        });
+        btn.className = 'filter-btn px-3.5 py-2 text-xs font-semibold rounded-md bg-gradient-to-r from-sky-400 to-emerald-400 text-slate-950 whitespace-nowrap cursor-pointer';
+
+        appCards.forEach(function (card) {
+          if (selected === 'all' || card.getAttribute('data-category') === selected) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Pré-sélection d'une application dans le formulaire de contact
+    function selectAppSubject(appName) {
+      var selectEl = document.getElementById('subject');
+      if (selectEl) {
+        selectEl.value = appName;
+      }
+    }
+
+    // Copie rapide de l'adresse email officielle
+    var copyEmailBtn = document.getElementById('copyEmailBtn');
+    if (copyEmailBtn) {
+      copyEmailBtn.addEventListener('click', function () {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText('boulyiteamdevelopper@gmail.com');
+        }
+        copyEmailBtn.textContent = 'Adresse copiée !';
+        setTimeout(function () {
+          copyEmailBtn.textContent = "Copier l'adresse";
+        }, 2500);
+      });
+    }
+
+    // Validation et confirmation visuelle du formulaire de contact
+    var contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var subject = document.getElementById('subject').value;
+        var message = document.getElementById('message').value.trim();
+        var errEl = document.getElementById('formError');
+        var okEl = document.getElementById('formSuccess');
+
+        var emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email);
+        if (name.length < 2 || !emailValid || message.length < 10) {
+          errEl.textContent = 'Veuillez renseigner un nom complet, une adresse email valide et un message détaillé (au moins 10 caractères).';
+          errEl.classList.remove('hidden');
+          okEl.classList.add('hidden');
+          return;
+        }
+
+        errEl.classList.add('hidden');
+        var refCode = 'BTD-' + String(Date.now() % 1000000).padStart(6, '0');
+        okEl.innerHTML = '<strong>Message transmis avec succès (Réf : ' + refCode + ') !</strong><br/>Merci <strong>' + name + '</strong> (' + email + '). Votre demande concernant <strong>' + subject + '</strong> a bien été enregistrée pour <u>boulyiteamdevelopper@gmail.com</u>. Notre équipe vous répondra sous 24 heures ouvrées.';
+        okEl.classList.remove('hidden');
+        contactForm.reset();
+      });
+    }
+  </script>
+</body>
+</html>
